@@ -14,5 +14,3 @@ RUN apt-get update \
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash -
 RUN apt-get install -y nodejs && apt-get clean
 
-RUN apt-get remove -y manpages manpages-dev g++ gcc cpp make \
-        python-software-properties unattended-upgrades ucf g++-4.6 gcc-4.6 cpp-4.6
