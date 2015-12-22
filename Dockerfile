@@ -1,4 +1,4 @@
-FROM bassoman/ubuntu-jdk
+FROM bassoman/ubuntu-jdk:1.0.0
 MAINTAINER Jon Lancelle <bassoman@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
