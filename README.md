@@ -1,3 +1,5 @@
-# ubuntu-jdk-nodejs
-ubuntu 15.10 with java 8 jdk and nodejs
+bassoman/nodejs
+ubuntu 15.10 with nodejs
+
+add Rubygems
 
