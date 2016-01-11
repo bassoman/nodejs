@@ -1,5 +1,10 @@
-FROM bassoman/ubuntu-jdk:1.0.0
+FROM ubuntu:15.10
 MAINTAINER Jon Lancelle <bassoman@gmail.com>
+
+RUN apt-get update && apt-get install -y \
+	curl \
+	unzip \
+	wget
 
 ENV DEBIAN_FRONTEND noninteractive
 
